@@ -1,0 +1,153 @@
+
+/* Shared Styles */
+
+body {
+    background-color: #e4ded4;
+    font-family: 'Raleway', sans-serif;
+    margin: 0; 
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-size: xx-large ;
+}
+
+main {
+    max-width: 1800px; /* Set the maximum width of the container */
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e4ded4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+h2 {
+    color:black;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+
+/* Menu Styles */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.horizontal-menu {
+    display: flex;
+    background-color: #133514;
+    padding: 10px 0;
+}
+
+ul.horizontal-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul.horizontal-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #e4ded4;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+ul.horizontal-menu li a:hover {
+    background-color: #305232;
+    color: #e4ded4;
+}
+
+/* Index Styles */
+
+.banner {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.banner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.intro{
+    text-align: center;
+}
+
+/* About Us and Contact Styles */
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e4ded4;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #133514;
+    color: #e4ded4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #65a07d;
+}
+
+.about-us{
+    margin-left: 15px;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #133514;
+    color: #e4ded4;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
